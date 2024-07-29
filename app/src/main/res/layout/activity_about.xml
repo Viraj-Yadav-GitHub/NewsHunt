@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/title">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:id="@+id/backbtn">
+
+        </ImageView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="About this App"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="normal">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/top1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/alegreya_bold"
+                android:text="NewsHunt, 'Made in India' app for News &amp; Videos – Local, National &amp; International News, Politics, Cricket, Entertainment &amp; more!"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/top2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top1"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/alegreya_bold"
+                android:text="T20 Cricket Festival Begins! Follow all Cricket News &amp; Updates on NewsHunt"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/top3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top2"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/alegreya_bold"
+                android:text="Follow all news and updates on Covid 19 Pandemic from official Government sources. Stay safe with NewsHunt!"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/top4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top3"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/alegreya_bold"
+                android:text="Create your Profile &amp; read full news "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/top5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top4"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/alegreya_bold"
+                android:text="REACH US: Report any issues or share feedback on how we can improve NewsHunt. Please email us at: any.help.2021@gmail.com"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

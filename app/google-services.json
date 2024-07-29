@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "697377106812",
+    "project_id": "news-hunt-a9fcb",
+    "storage_bucket": "news-hunt-a9fcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697377106812:android:cf5947bf7889e694c3d2f9",
+        "android_client_info": {
+          "package_name": "com.example.newshunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697377106812-2hjiol5rl2v192qfq6sq4ua2415kms6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx-k_fCfa7fkySIXg-qtRy98x0KFLP6zI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697377106812-2hjiol5rl2v192qfq6sq4ua2415kms6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

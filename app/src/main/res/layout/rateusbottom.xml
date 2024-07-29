@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Rate our application"
+            android:textColor="@color/black"
+            android:fontFamily="@font/alegreya_bold"
+            android:layout_marginStart="10dp"
+            android:textSize="25sp"
+            android:layout_weight="4"
+
+            android:layout_marginLeft="20dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:id="@+id/close"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/cross"/>
+
+    </LinearLayout>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:numStars="5"
+        android:id="@+id/rateBar"
+        android:progressTint="#FFD700"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30dp"
+        android:textColor="#5A5656"
+        android:id="@+id/rateText"/>
+
+
+
+</LinearLayout>
